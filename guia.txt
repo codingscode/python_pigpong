@@ -10,6 +10,7 @@ duas raquetes uma de cada lado
 
 uma bola no meio
 
+clicando-se a tecla 'w' a raquete 'a' sobe
 
 
 

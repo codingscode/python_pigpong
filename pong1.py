@@ -40,6 +40,17 @@ bola.penup()
 bola.goto(0, 0)
 
 
+# funcao
+def raquete_a_acima():
+    y = raquete_a.ycor()
+    y += 20
+    raquete_a.sety(y)
+    
+# vinculo teclado
+janela.listen()
+janela.onkeypress(raquete_a_acima, 'w')
+
+
 
 
 # loop do jogo principal
