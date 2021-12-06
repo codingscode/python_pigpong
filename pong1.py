@@ -45,11 +45,18 @@ def raquete_a_acima():
     y = raquete_a.ycor()
     y += 20
     raquete_a.sety(y)
+
+
+def raquete_a_abaixo():
+    y = raquete_a.ycor()
+    y -= 20
+    raquete_a.sety(y)
+
     
 # vinculo teclado
 janela.listen()
 janela.onkeypress(raquete_a_acima, 'w')
-
+janela.onkeypress(raquete_a_abaixo, 's')
 
 
 
