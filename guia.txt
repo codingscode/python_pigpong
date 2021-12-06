@@ -14,7 +14,7 @@ clicando-se a tecla 'w' a raquete 'a' sobe
 
 w -> pra cima, s -> pra baixo
 
-
+os dois lados agora
 
 
 
