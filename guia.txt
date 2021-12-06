@@ -1,0 +1,23 @@
+
+
+no terminal:
+   sudo apt-get install python3-tk
+
+executando aparece uma tela verde
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
