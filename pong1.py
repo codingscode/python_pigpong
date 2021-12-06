@@ -32,6 +32,13 @@ raquete_b.goto(350, 0)
 
 
 # bola
+bola = turtle.Turtle()
+bola.speed(0)
+bola.shape('square')
+bola.color('white')
+bola.penup()
+bola.goto(0, 0)
+
 
 
 
