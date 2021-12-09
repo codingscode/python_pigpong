@@ -109,6 +109,9 @@ while True:
         bola.dx *= -1
 
 
+    if (bola.xcor() < -340 and bola.xcor() > -350) and (bola.ycor() < raquete_a.ycor() + 40 and bola.ycor() > raquete_a.ycor() - 40):
+        bola.setx(-340)
+        bola.dx *= -1
 
 
 
