@@ -103,7 +103,9 @@ while True:
         bola.goto(0, 0)
         bola.dx *= -1    
 
-
+    # colisoes raquete e bola
+    if bola.xcor() > 340 and (bola.ycor() < raquete_b.ycor() + 40 and bola.ycor() > raquete_b.ycor() - 40):
+        bola.dx *= -1
 
 
 

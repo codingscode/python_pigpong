@@ -26,7 +26,7 @@ quando a bola passa na borda direita a bola volta pro inicio
 
 em cada lado agora
 
-
+rebate na raquete b
 
 
 
