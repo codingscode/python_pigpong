@@ -24,7 +24,7 @@ a bola rebate a borda inferior
 
 quando a bola passa na borda direita a bola volta pro inicio
 
-
+em cada lado agora
 
 
 
