@@ -39,7 +39,7 @@ bola.color('white')
 bola.penup()
 bola.goto(0, 0)
 bola.dx = 0.1
-bola.dy = 0.1
+bola.dy = -0.1
 
 
 # funcao
@@ -91,7 +91,9 @@ while True:
         bola.sety(290)
         bola.dy *= -1
         
-
+    if bola.ycor() < -290:
+        bola.sety(-290)
+        bola.dy *= -1
 
 
 

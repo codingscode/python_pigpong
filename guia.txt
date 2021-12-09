@@ -20,5 +20,28 @@ a bola já se move
 
 a bola rebate a primeira borda
 
+a bola rebate a borda inferior
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
