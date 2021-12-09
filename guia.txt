@@ -16,7 +16,7 @@ w -> pra cima, s -> pra baixo
 
 os dois lados agora
 
-
+a bola já se move
 
 
 

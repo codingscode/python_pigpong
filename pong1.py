@@ -1,5 +1,5 @@
 
-#from tkinter import *
+
 import turtle
 
 
@@ -38,6 +38,8 @@ bola.shape('square')
 bola.color('white')
 bola.penup()
 bola.goto(0, 0)
+bola.dx = 0.1
+bola.dy = 0.1
 
 
 # funcao
@@ -79,7 +81,11 @@ janela.onkeypress(raquete_b_abaixo, 'Down')
 # loop do jogo principal
 while True:
     janela.update()
-
+    
+    # mover a bola
+    bola.setx(bola.xcor() + bola.dx)
+    bola.sety(bola.ycor() + bola.dy)
+    
 
 
 
