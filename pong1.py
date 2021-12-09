@@ -86,7 +86,11 @@ while True:
     bola.setx(bola.xcor() + bola.dx)
     bola.sety(bola.ycor() + bola.dy)
     
-
+    # verificar borda
+    if bola.ycor() > 290:
+        bola.sety(290)
+        bola.dy *= -1
+        
 
 
 

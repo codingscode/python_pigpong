@@ -18,7 +18,7 @@ os dois lados agora
 
 a bola já se move
 
-
+a bola rebate a primeira borda
 
 
 
