@@ -41,6 +41,15 @@ bola.goto(0, 0)
 bola.dx = 0.1
 bola.dy = -0.1
 
+# placar
+placar = turtle.Turtle()
+placar.speed(0)
+placar.color('yellow')
+placar.penup()
+placar.hideturtle()
+placar.goto(0, 260)
+placar.write('Jogador A: 0 Jogador B: 0', align='center', font=('Courier', 24, 'normal'))
+
 
 # funcao
 def raquete_a_acima():
