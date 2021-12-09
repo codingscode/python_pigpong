@@ -94,6 +94,39 @@ while True:
     if bola.ycor() < -290:
         bola.sety(-290)
         bola.dy *= -1
+        
+    if bola.xcor() > 390:
+        bola.goto(0, 0)
+        bola.dx *= -1
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        
+        
+        
+        
 
 
 

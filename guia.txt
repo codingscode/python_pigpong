@@ -22,7 +22,7 @@ a bola rebate a primeira borda
 
 a bola rebate a borda inferior
 
-
+quando a bola passa na borda direita a bola volta pro inicio
 
 
 
