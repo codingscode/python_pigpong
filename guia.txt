@@ -38,7 +38,7 @@ os placares ficam sobrescritos
 
 corrigindo
 
-
+som toca quando bate em algo
 
 
 

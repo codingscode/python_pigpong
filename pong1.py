@@ -1,6 +1,7 @@
 
 
 import turtle
+import os
 
 
 janela = turtle.Screen()
@@ -104,10 +105,12 @@ while True:
     if bola.ycor() > 290:
         bola.sety(290)
         bola.dy *= -1
+        os.system('aplay bounce.wav&')
         
     if bola.ycor() < -290:
         bola.sety(-290)
         bola.dy *= -1
+        os.system('aplay bounce.wav&')
         
     if bola.xcor() > 390:
         bola.goto(0, 0)
@@ -127,11 +130,13 @@ while True:
     if (bola.xcor() > 340 and bola.xcor() < 350) and (bola.ycor() < raquete_b.ycor() + 40 and bola.ycor() > raquete_b.ycor() - 40):
         bola.setx(340)
         bola.dx *= -1
+        os.system('aplay bounce.wav&')
 
 
     if (bola.xcor() < -340 and bola.xcor() > -350) and (bola.ycor() < raquete_a.ycor() + 40 and bola.ycor() > raquete_a.ycor() - 40):
         bola.setx(-340)
         bola.dx *= -1
+        os.system('aplay bounce.wav&')
 
 
 
