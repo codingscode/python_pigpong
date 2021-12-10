@@ -113,12 +113,14 @@ while True:
         bola.goto(0, 0)
         bola.dx *= -1
         pontuacao_a += 1
+        placar.clear()
         placar.write(f'Jogador A: {pontuacao_a} Jogador B: {pontuacao_b}', align='center', font=('Courier', 24, 'normal'))
 
     if bola.xcor() < -390:
         bola.goto(0, 0)
         bola.dx *= -1    
         pontuacao_b += 1
+        placar.clear()
         placar.write(f'Jogador A: {pontuacao_a} Jogador B: {pontuacao_b}', align='center', font=('Courier', 24, 'normal'))
 
     # colisoes raquete e bola
