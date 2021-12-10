@@ -10,6 +10,11 @@ janela.setup(width=800, height=600)
 janela.tracer(0)
 
 
+# pontuação
+pontuacao_a = 0
+pontuacao_b = 0
+
+
 # raquete a
 raquete_a = turtle.Turtle()
 raquete_a.speed(0)
@@ -48,7 +53,7 @@ placar.color('yellow')
 placar.penup()
 placar.hideturtle()
 placar.goto(0, 260)
-placar.write('Jogador A: 0 Jogador B: 0', align='center', font=('Courier', 24, 'normal'))
+placar.write(f'Jogador A: {pontuacao_a} Jogador B: {pontuacao_b}', align='center', font=('Courier', 24, 'normal'))
 
 
 # funcao
@@ -107,10 +112,14 @@ while True:
     if bola.xcor() > 390:
         bola.goto(0, 0)
         bola.dx *= -1
-        
+        pontuacao_a += 1
+        placar.write(f'Jogador A: {pontuacao_a} Jogador B: {pontuacao_b}', align='center', font=('Courier', 24, 'normal'))
+
     if bola.xcor() < -390:
         bola.goto(0, 0)
         bola.dx *= -1    
+        pontuacao_b += 1
+        placar.write(f'Jogador A: {pontuacao_a} Jogador B: {pontuacao_b}', align='center', font=('Courier', 24, 'normal'))
 
     # colisoes raquete e bola
     if (bola.xcor() > 340 and bola.xcor() < 350) and (bola.ycor() < raquete_b.ycor() + 40 and bola.ycor() > raquete_b.ycor() - 40):
